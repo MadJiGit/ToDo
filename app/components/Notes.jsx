@@ -6,7 +6,7 @@ import {
     TouchableOpacity,
 } from 'react-native';
 
-const Note = ({ data, onDelete }) => {
+const Note = ({ data, onDelete }) => {  
 
     const { date, note } = data;
 
